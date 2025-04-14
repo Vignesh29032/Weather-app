@@ -20,6 +20,7 @@ const Weather = () => {
   };
 
   return (
+    <div className="centerScreen">
     <div className={styles.weatherContainer}>
       <h2>Weather App</h2>
       <input
@@ -41,6 +42,7 @@ const Weather = () => {
           <p style={{ color: 'red' }}>City not found!</p>
         ) : null}
       </div>
+    </div>
     </div>
   );
 };

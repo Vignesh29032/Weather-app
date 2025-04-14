@@ -17,6 +17,7 @@ const Login = () => {
   };
 
   return (
+    <div className="centerScreen">
     <div className={styles.loginContainer}>
       <h2>Login</h2>
       <form onSubmit={handleLogin}>
@@ -36,6 +37,7 @@ const Login = () => {
         /><br />
         <button type="submit">Login</button>
       </form>
+    </div>
     </div>
   );
 };
